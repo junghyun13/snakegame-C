@@ -95,13 +95,11 @@ void title(void){
     	if(kbhit()){ 
             key=getch();
             if(key==ESC) exit(0); 
-            else break;  
-        } 
+            else break;} 
         gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+9," < PRESS ANY KEY TO START > ");
         Sleep(400);
         gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+9,"                            ");
-        Sleep(400); 
-    }
+        Sleep(400);}
     reset();
 	}
 void reset(void){

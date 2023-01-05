@@ -87,7 +87,6 @@ void title(void){
     gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+7,"+--------------------------+");
  
     gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+9," < PRESS ANY KEY TO START > ");
- 
     gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+11,"   ◇ ←,→,↑,↓ : Move    ");
     gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+12,"   ◇ P : Pause             ");    
     gotoxy(MAP_X+(MAP_WIDTH/2)-7,MAP_Y+13,"   ◇ ESC : Quit              "); 
